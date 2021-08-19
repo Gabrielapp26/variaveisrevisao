@@ -6,5 +6,7 @@ public class BalnacoTrimestral{
         int gastoTrimestral = gastosJaneiro + gastosFevereiro + gastosMarco;
         int mediaTrimestral = gastoTrimestral/3;
 
+        System.out.println("O gasto Trimestral é de R$ "+gastoTrimestral);
+        System.out.println("A média Trimestral foi de R$ "+mediaTrimestral);
     }
 }
